@@ -1,0 +1,32 @@
+# Credentials and local settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Environments, downloaded models, IDE files and caches
+.venv/
+venv/
+env/
+.models/
+.cache/
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+.DS_Store
+# Private recordings and generated transcripts
+/audio/*
+!/audio/.gitkeep
+/results/
+*.mp3
+*.wav
+*.aiff
+*.m4a
+*.flac
+*.srt
+*.vtt
+*.transcript.json
+*.cuts.json
+# Machine-specific dependency snapshot (use requirements.txt)
+requirements-lock.txt
